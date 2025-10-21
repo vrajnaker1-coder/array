@@ -1,0 +1,99 @@
+function returns
+
+eg
+
+function multiply (a,b,c){
+return a*b*c
+}
+ multiply(10,20,30)
+console.log (multiply(10,20,30))
+
+
+DOM/html
+document object model
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+</body>
+</html>
+
+how to add the code itself first="!", then click enter
+after that add
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+    
+
+        <script src="index.js"></script>
+</body>
+</html>
+
+ur code shud look like this wen u want to add phrases in the page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+    <h1 id="fort">welcome</h1>
+    <h1 id="skim">choose option</h1>
+    <h1 id="frit">basic or extreme</h1>
+    <h1 id="fret">process complete </h1>
+    <p id="phrases">fill in details</p>
+
+
+        <script src="index.js"></script>
+</body>
+</html>
+
+
+when u wanna access the code and change the final phrases
+it shud look like this
+
+
+
+const af=document.getElementById("fort")
+af.textContent="welcome to virtual store"
+console.log(af.textContent)
+
+const js=document.getElementById("skim")
+js.textContent="2 options"
+console.log(js.textContent)
+
+const br=document.getElementById("frit")
+br.textContent="choose between basic or extreme"
+console.log(br.textContent)
+
+const feat=document.getElementById("fret")
+feat.textContent="add any extra requirements"
+console.log(feat.textContent)
+
+const frat=document.getElementById("phrases")
+frat.textContent="fill in the required details"
+console.log(frat.textContent)
+
+
+its shud add phrases and be able to change them
+
+
