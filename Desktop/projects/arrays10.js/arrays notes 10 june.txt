@@ -1,0 +1,91 @@
+// undefined=no value
+//NaN= not a no. 18*j
+
+//arrays
+//used to store a collection of data/items
+//let fruits=["banana","orange","grape"]
+//let grade=[100,200,3]
+//let mixedtype=["joseph",true,300]
+
+//create 2 arrays of anything and add atleast 5 items
+
+let marks=[30,50,68,99,58]
+let student=["jane","mark","jose","jeff","caleb"]
+
+//arrays are index based
+
+
+let marks=[30,50,68,99,58]
+let student=["jane","mark","jose","jeff","caleb"]
+console.log( marks [0,4])
+
+final code
+let marks=[30,50,68,99,58]
+let student=["jane","mark","jose","jeff","caleb"]
+console.log(marks[0,3])
+
+methods=functions that help us in manipulating arrays
+  fruit.push(apple)
+  log(fruit)
+//push= adds items to the end of the array
+//unshift=adds items to the beginning of the array
+//array.pop()=removes the last element in an array
+//array.shift()=removes the first element in the array
+
+final code
+
+ let marks=[30,50,68,99,58]
+let student=["jane","mark","jose","jeff","caleb"]
+console.log(marks[0,3])
+marks.push(40)
+marks.unshift(10)
+student.push("steve")
+student.unshift("kel")
+console.log(marks)
+console.log(student)
+marks.pop()
+marks.shift()
+student.pop()
+student.shift()
+console.log(marks)
+console.log(student)
+
+
+//array.length 
+//let word=joe
+//length=3
+//array.for each(function(element){
+console.log(element)
+}
+)
+//
+final code
+let marks=[30,50,68,99,58]
+let student=["jane","mark","jose","jeff","caleb"]
+console.log(marks[0,3])
+marks.push(40)
+marks.unshift(10)
+student.push("steve")
+student.unshift("kel")
+console.log(marks)
+console.log(student)
+marks.pop()
+marks.shift()
+student.pop()
+student.shift()
+console.log(marks)
+console.log(student)
+marks.forEach(element => {
+    console.log(element)
+});
+student.forEach((element) => {
+    console.log(element)
+
+
+
+
+
+
+while loop
+
+
